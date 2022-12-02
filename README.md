@@ -1,5 +1,5 @@
 # Quantifying single cell lipid signaling kinetics after photo-stimulation
-This repository contains code and data used for the paper 'Quantifying single cell lipid signaling kinetics after photo-stimulation' (add link or doi). The provided code can be used to reproduce the parameter inference and profile likelihood analysis shown in the paper and is not meant to be a general tool. For further information, contact Christoph Zechner (zechner@mpi-cbg.de) and André Nadler (nadler@mpi-cbg.de).
+This repository contains code and data used for the preprint 'Quantifying single cell lipid signaling kinetics after photo-stimulation' (add link or doi). The provided code can be used to reproduce the parameter inference and profile likelihood analysis shown in the paper and is not meant to be a general tool. For further information, contact Christoph Zechner (zechner@mpi-cbg.de) and André Nadler (nadler@mpi-cbg.de).
 
 # Content
 This repository contains the following directories:
