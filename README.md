@@ -34,6 +34,6 @@ For ./julia/experiment/pop_DAGprofile.jl, the indices are the initial uncaged DA
 
 Use ./julia/experiment/mean_multistart.jl and ./julia/experiment/mean_fit.jl to repeat analysis but with population-averaged data. This will recreate the plots in Fig. S13 and S17. The C1-corrected analysis in Fig. S14 and S17 can be recreated using ./julia/experiment/mean_fit_corrected.jl. All output results and plots are saved in ./output/experiment/ and ./plots/experiment/, respectively. 
 
-Use ./julia/experiment/calibration_plot.jl recreates the plot from Fig. 4C. Data used is from ./raw/20180404quantification_C1_NES_EGFP.xlsx.
+Use ./julia/experiment/calibration_plot.jl to recreate the plot from Fig. 4C. Data used is from ./raw/20180404quantification_C1_NES_EGFP.xlsx.
 
 For the reanalysis of the PNAS 2020 data, run ./julia/reanalysis/getdata.jl to reformat the data and then ./julia/reanalysis/processdata.jl to do the bleach correction and normalization as we previously reported. The scripts ./julia/reanalysis/titration_multistart.jl and titration_profiles.jl runs the parameter inference and profile likelihood analysis for the laser power titration data of SAG and SOG and DOG lipids. This can be done with or without the C1 correction by commenting out line 37 or 38 in the scripts, respectively. A comparison of the results with and without the C1 correction and our current single cell analysis is summarized in the excel file in ./plot/reanalysis/Reanalysis_results.xlsx.
